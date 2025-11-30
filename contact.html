@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ben - Contact</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="container">
+      <div class="logo">Ben</div>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="experience.html" class="nav-link">Experience</a></li>
+        <li><a href="education.html" class="nav-link active">Education</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="contact" class="active">
+    <div class="container">
+      <h2>Let's Connect</h2>
+      <div class="contact-content">
+        <div class="contact__info">
+          <h3 class="contact__info-title">Contact Information</h3>
+          <div class="contact__item">
+            <strong class="contact__item-label">Email</strong>
+            <a class="contact__item-link" href="mailto:work@ben.is-a.dev">work@ben.is-a.dev</a>
+          </div>
+          <div class="contact__item">
+            <strong class="contact__item-label">Phone</strong>
+            <a class="contact__item-link" href="tel:+6285156413036">+62 851-5641-3036</a>
+          </div>
+          <div class="contact__item">
+            <strong class="contact__item-label">Location</strong>
+            Malang, Jawa Timur, Indonesia
+          </div>
+          <div class="contact__item">
+            <strong class="contact__item-label">GitHub</strong>
+            <a class="contact__item-link" href="https://github.com/justpiple" target="_blank">github.com/justpiple</a>
+          </div>
+          <div class="contact__item">
+            <strong class="contact__item-label">LinkedIn</strong>
+            <a class="contact__item-link" href="https://linkedin.com/in/kusindraaji"
+              target="_blank">linkedin.com/in/kusindraaji</a>
+          </div>
+          <div class="contact__item">
+            <strong class="contact__item-label">Website</strong>
+            <a class="contact__item-link" href="https://ben.is-a.dev" target="_blank">ben.is-a.dev</a>
+          </div>
+          <div class="contact__item">
+            <strong class="contact__item-label">Instagram</strong>
+            <a class="contact__item-link" href="https://instagram.com/kusindr_" target="_blank">@kusindr_</a>
+          </div>
+        </div>
+
+        <div class="contact__form">
+          <h3>Send a Message</h3>
+          <form id="contactForm">
+            <div class="contact-form__group">
+              <label class="contact-form__label" for="name">Name</label>
+              <input class="contact-form__input" type="text" id="name" name="name" required>
+            </div>
+            <div class="contact-form__group">
+              <label class="contact-form__label" for="email">Email</label>
+              <input class="contact-form__input" type="email" id="email" name="email" required>
+            </div>
+            <div class="contact-form__group">
+              <label class="contact-form__label" for="message">Message</label>
+              <textarea class="contact-form__textarea" id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="cta-button">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Kusindra Aji Rabbany.</p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+
+</html>
